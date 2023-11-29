@@ -1,4 +1,5 @@
 <?php
+// Version: PHP 7.4
 // Check if the 'image_url' parameter is provided
 if (isset($_GET['image_url'])) {
     $imageUrl = $_GET['image_url'];
