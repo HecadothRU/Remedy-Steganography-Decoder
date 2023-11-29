@@ -8,9 +8,9 @@ This example will be based on a simple steganography method where data is hidden
 
 
 > Fetches an image from a URL provided via a $_GET parameter.<br>
-> Reads each pixel's color values from the image.
-> Extracts the least significant bit from each color channel (red, green, blue) of each pixel.
-> Converts the binary data extracted into a string.
+> Reads each pixel's color values from the image.<br>
+> Extracts the least significant bit from each color channel (red, green, blue) of each pixel.<br>
+> Converts the binary data extracted into a string.<br>
 
 Please note:
 This script is highly simplistic and may not work with complex steganography methods.
