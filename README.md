@@ -1,19 +1,34 @@
-# Steganography-Decoder
-Steganography (IMAGE) Decoder Written in php 7.4 and maybe even some other languages / structures when i create them.
+# Remedy Steganography-Decoder
 
-This script assumes that the hidden data is a text message encoded in binary form in the LSB of each color channel of the image.
-
-This project is useful BUT simple since steganography methods can vary greatly
-This example will be based on a simple steganography method where data is hidden in the least significant bit (LSB) of the image pixels.
+Remedy is a Multi-Language Steganography Based Decoding Project in which uses multiple libraries and stand-alone scripts to retrieve hidden data/information from images.
 
 
-> Fetches an image from a URL provided via a $_GET parameter.<br>
-> Reads each pixel's color values from the image.<br>
-> Extracts the least significant bit from each color channel (red, green, blue) of each pixel.<br>
-> Converts the binary data extracted into a string.<br>
+## PHP
 
-Please note:
-This script is highly simplistic and may not work with complex steganography methods.
-It's designed for demonstration purposes and might need significant adjustments for practical use.
-Processing large images could lead to performance issues.
-The script assumes that the hidden message is in plain text and uses a null character (\0) as a terminator. This may not be the case for all steganographic messages.
+There are several versions of the PHP Varients, Some which take the Image solely based off a GET/URL input, and others that work solely off internal storage, regardless you may need to install the correct versions for either or.
+
+for all scripts that run off of PHP 7.4, [INSTALL PHP 7.4 HERE](https://www.digitalocean.com/community/tutorials/how-to-install-php-7-4-and-set-up-a-local-development-environment-on-ubuntu-20-04)
+
+For all scripts that run off of PHP 8 [INSTALL PHP 8 HERE](https://utho.com/docs/tutorial/how-to-install-php-8-on-ubuntu-22-04/)
+
+NOTE: For any scripts Taking a $_GET Parameter, they must be ran on a webserver/internal server. all else runs internally on your machine/server using local storage.
+
+## Python
+
+Same as the PHP Version, there will be multiple scripts created in python, all using different versions.
+Such as python3 or python2, these folders/directories will be labeled as to avoid confusion.
+
+> Python Installation (WORKS FOR 2 AND 3.6+)
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Pillow.
+
+```bash
+pip install Pillow
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
