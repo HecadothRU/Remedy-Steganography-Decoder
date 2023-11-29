@@ -7,7 +7,7 @@ This project is useful BUT simple since steganography methods can vary greatly
 This example will be based on a simple steganography method where data is hidden in the least significant bit (LSB) of the image pixels.
 
 
-> Fetches an image from a URL provided via a $_GET parameter.
+> Fetches an image from a URL provided via a $_GET parameter.<br>
 > Reads each pixel's color values from the image.
 > Extracts the least significant bit from each color channel (red, green, blue) of each pixel.
 > Converts the binary data extracted into a string.
